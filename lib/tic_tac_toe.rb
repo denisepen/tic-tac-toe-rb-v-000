@@ -98,7 +98,9 @@ end
 
 def play(board)
   input = gets.strip
-  over?(board)
   turn(board)
+  valid_move?(board, index)
+  over?(board)
+  
 
 end
