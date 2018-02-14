@@ -98,5 +98,7 @@ end
 
 def play(board)
   input = gets.strip
+  over?(board)
+  turn(board)
 
 end
