@@ -101,6 +101,6 @@ def play(board)
   turn(board)
   valid_move?(board, index)
   over?(board)
-  
+
 
 end
