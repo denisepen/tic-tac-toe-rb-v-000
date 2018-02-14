@@ -99,7 +99,7 @@ end
 def play(board)
   input = gets.strip
   turn(board)
-  valid_move?(board, index)
+
   over?(board)
 
 
