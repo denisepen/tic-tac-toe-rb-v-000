@@ -107,10 +107,10 @@ end
 end
 
 def play(board)
-  input = gets.strip
-  turn(board)
+  until  over?(board) do
 
-  over?(board)
+  end
+  end
 
 
 end
