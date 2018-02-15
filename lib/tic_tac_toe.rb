@@ -20,6 +20,8 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
+  token = current_player
+  move(board, index, token)
   index.between?(0,8) && !position_taken?(board, index)
 end
 
